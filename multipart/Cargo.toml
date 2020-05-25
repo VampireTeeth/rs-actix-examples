@@ -1,0 +1,19 @@
+[package]
+name = "multipart"
+version = "0.1.0"
+authors = ["VampireTeeth <vampireteeth001@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+actix-web = "2.0.0"
+actix-rt = "1.0.0"
+actix-multipart = "0.2.0"
+futures = "0.3"
+async-std = "1.4.0"
+
+
+[[example]]
+name = "with-async-std"
+path = "src/with_async_std.rs"
